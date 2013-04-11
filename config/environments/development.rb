@@ -24,4 +24,9 @@ DebugInfo::Application.configure do
 
   # Debug mode disables concatenation and preprocessing of assets.
   config.assets.debug = true
+
+  # Trying to dump source mappings for SCSS
+  # http://fonicmonkey.net/2013/03/25/native-sass-scss-source-map-support-in-chrome-and-rails/
+  config.sass.debug_info = true
+  config.sass.line_comments = false
 end
